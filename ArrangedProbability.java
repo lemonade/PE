@@ -45,7 +45,7 @@ public class ArrangedProbability {
 			BigInteger nextD = c.multiply(TWO).add(d.multiply(THREE));
 			c = nextC;
 			d = nextD;
-			n1 = b.multiply(new BigInteger("2")).multiply(a.subtract(b));
+			n1 = b.multiply(TWO).multiply(a.subtract(b));
 			n2 = d.multiply(d).subtract((c.subtract(d)).multiply(c.subtract(d)));
 		}
 		
