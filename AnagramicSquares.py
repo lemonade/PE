@@ -1,7 +1,7 @@
 import math
 
 def load_words():
-    lines = open('C:\\Users\\Admin\\Downloads\\p098_words.txt', 'r')
+    lines = open('p098_words.txt', 'r')
     for line in lines:
         return [w.replace('"', '') for w in line.split(',')]
 
